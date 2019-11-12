@@ -20,11 +20,25 @@ html, body{
 .fulidpic{
     height: 50px;
     width: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.forsmalleringpic{
+    height: 30px;
+    width: 30px;
+    transition: 0.5s ease-in-out;
 }
 
 .topbarnav{
+    font-size: 16px;
     color: #fff !important;
-    transition: 0.5s ease-in-out
+    transition: 0.5s ease-in-out;
+}
+
+.smallnavitems{
+    transition: 0.5s ease-in-out;
+    font-size: 14px;
+    color: #fff !important;
 }
 
 .topbarnav:hover{
@@ -38,6 +52,17 @@ html, body{
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
     text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.smallordercabclass{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
 }
 
 .orderacablink:hover{
@@ -45,6 +70,10 @@ html, body{
     text-decoration: none;
 }
 
+.smallordercabclass:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
 
 #login{
     background-color: #8D1B3D;

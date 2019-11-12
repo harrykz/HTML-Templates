@@ -5,7 +5,7 @@
     grid-gap: 10px;
     display: grid;
     margin: 0 auto;
-    padding: 200px 0px 50px 0px; 
+    padding: 40px 0px 50px 0px; 
 }
 
 .columnHOne, .columnHTwo, .columnHThree, .columnHFour, .columnHFive, .columnHSix{
@@ -63,4 +63,32 @@
     background-size: cover;
     background-position: center center;
     grid-column: 5 / 7;
+}
+
+.instructionheading{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.instructions{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.notes{
+    color : #8D1B3D;
+    font-size: 14px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.termscond{
+    color: #8D1B3D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.termscond:hover{
+    text-decoration: none;
+
 }

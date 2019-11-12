@@ -1,0 +1,21 @@
+.topmargforterm{
+    padding: 40px 0px 40px 0px;
+}
+.mainsideheadings{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.mainsideheadings{
+    font-size: 25px;
+}
+
+.subparas{
+    padding-left: 25px;
+    text-align: justify;
+}
+
+.termsparas, .subparas{
+    font-size: 14px;
+}

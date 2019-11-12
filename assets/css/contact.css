@@ -1,5 +1,5 @@
 .formbox{
-    padding: 200px 0px 50px 0px;
+    padding: 40px 0px 50px 0px;
 }
 
 .socialtext, .cntctform, .mapheading, .maildelivery{
@@ -16,7 +16,7 @@
     font-size: 25px;
 }
 
-.gapingandsetting{
+.gapingandsetting{ 
     margin: 10px 0px 10px 0px;
     border: 2px solid #3b3d4b !important;
 }

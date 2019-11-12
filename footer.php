@@ -16,10 +16,11 @@
                 <div class="col-12 col-md-3 col-lg-3">
                     <p class="footerlistheading">OUR SERVICES</p>
                     <ul class="footerlistyellow">
-                        <li class="yellowitems"><a href="#" class="yellowanchors">Home</a></li>
-                        <li class="yellowitems"><a href="#" class="yellowanchors">Services</a></li>
-                        <li class="yellowitems"><a href="#" class="yellowanchors">About Us</a></li>
-                        <li class="yellowitems"><a href="#" class="yellowanchors">Contact Us</a></li>
+                        <li class="yellowitems"><a href="index.php" class="yellowanchors">Home</a></li>
+                        <li class="yellowitems"><a href="services.php" class="yellowanchors">Services</a></li>
+                        <li class="yellowitems"><a href="about.php" class="yellowanchors">About Us</a></li>
+                        <li class="yellowitems"><a href="contact.php" class="yellowanchors">Contact Us</a></li>
+                        <li class="yellowitems"><a href="termsandconditions.php" class="yellowanchors">Terms & Conditions</a></li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-3 col-lg-3">

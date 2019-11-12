@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/about.css">
     <link rel="stylesheet" href="assets/css/hoods.css">
     <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/termsandconditions.css">
     <link rel="icon" href="assets/img/availability56.png" type="image/gif" sizes="16x16">
 </head>
 <body>
@@ -27,7 +28,7 @@
     <div class="extrapaddingtop">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.php">
-            <img src="assets/img/availability.png" alt="Logo" class="fulidpic">
+            <img src="assets/img/availability.png" alt="Logo" class="dummypicclass fulidpic">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -39,12 +40,12 @@
                 <a class="nav-link topbarnav" href="index.php">HOME</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link topbarnav dropdown-toggle" href="services.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link topbarnav dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 SERVICES
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="services.php">Services</a>
                 <a class="dropdown-item" href="hoods.php">Hoods</a>
-                <a class="dropdown-item" href="#">Decals</a>
                 <a class="dropdown-item" href="#">Rims & Tires</a>
                 <a class="dropdown-item" href="#">Fenders</a>
                 <div class="dropdown-divider"></div>
@@ -58,8 +59,8 @@
                 <a class="nav-link topbarnav" href="contact.php">CONTACT US</a>
             </li>
           </ul>
-          <a href="#" class="orderacablink" id="login">LOG IN</a>
-          <a href="#" class="orderacablink" id="signup">SIGN UP</a>
+          <a href="#" class="dummyclass orderacablink" id="login">LOG IN</a>
+          <a href="#" class="dummyclass orderacablink" id="signup">SIGN UP</a>
         </div>
       </nav>
     </div>

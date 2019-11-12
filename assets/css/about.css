@@ -28,7 +28,7 @@
 
 /* About US section */
 .aboutrow{
-    position: absolute;
+    position: relative;
     z-index: 3;
     width: 100%;
     padding: 90px 0px 40px 0px;
