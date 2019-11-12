@@ -1,0 +1,286 @@
+.justbackg{
+    height: 100vh;
+}
+.fluidyimgs{
+    width: 100%;
+    height: auto;
+}
+
+.leftmostdivonimage{
+    position: absolute;
+    right: 0%;
+    bottom: -10px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+    /* text-align: center;*/
+}
+
+.captext{
+    background-color: rgba(255,255,0,0.3);
+    display: inline-block;
+    height: 100%;
+    padding: 30px 20px 30px 20px;
+    border-top-right-radius: 25px;
+}
+
+/* About US section */
+.aboutrow{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    padding: 90px 0px 40px 0px;
+    background-color: rgba(159, 21, 21, 0.5);;
+    margin: 0 !important;
+}
+
+.about{
+    display: inline-block;
+    color: #fff;
+}
+
+.about:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 3px solid rgba(255,255,0,0.6);
+    width: 10%;
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Mastery Section */
+.spacingformaster{
+    padding: 40px 0px 40px 0px;
+    background-color: #f3f3f3;
+}
+.aboutrowS{
+    margin: 0px;
+}
+
+.mastery{
+    display : inline-block;
+    margin-bottom: 20px;
+}
+
+.mastery:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 3px solid burlywood;
+    width: 10%;
+    margin-top: 10px;
+}
+
+.cardlikes{
+    background-color: #fff;
+    padding: 30px 20px 30px 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.cardlikes:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 8px rgba(0,0,0,0.5);
+}
+
+.cardlikes:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 3px solid black;
+    width: 0%;
+    transition: 0.5s ease-in-out;
+}
+
+.cardlikes:hover:after{
+    width: 85%;
+}
+
+.catheading{
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #000;
+}
+
+.catheading:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 3px solid royalblue;
+    width: 0%;
+    padding-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s ease-in-out;
+}
+
+.catheading:hover{
+    text-decoration: none;
+}
+
+.catheading:hover:after{
+    cursor: pointer;
+    width: 10%;
+}
+
+/* Gallery Images */
+.racingpack{
+    padding: 40px 0px 0px 0px;
+}
+.backgimgs{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+#imageOne{
+    background-image: url('../img/compressedimgs/mclaren_570s_mclaren_car_149999_3840x2160.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageTwo{
+    background-image: url('../img/compressedimgs/mclaren_570s_rear_view_orange_108378_3840x2160.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageThree{
+    background-image: url('../img/compressedimgs/mclaren_675lt_us_spec_side_view_108790_3840x2160.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageFour{
+    background-image: url('../img/compressedimgs/mclaren_movement_red_speed_motion_blur_99472_3840x2160.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageFive{
+    background-image: url('../img/compressedimgs/nissan_gtr_nissan_sportscar_139668_3840x2160.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageSix{
+    background-image: url('../img/compressedimgs/porsche_911_carrera_rsr_porsche_sports_car_139640_3840x2160.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageSeven{
+    background-image: url('../img/driftcar1.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageEight{
+    background-image: url('../img/driftcar2.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageNine{
+    background-image: url('../img/driftcar3.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageTen{
+    background-image: url('../img/driftcar4.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageEleven{
+    background-image: url('../img/driftcar5.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageTwelve{
+    background-image: url('../img/driftcar6.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageThirteen{
+    background-image: url('../img/mustang.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageFourteen{
+    background-image: url('../img/rBVaJFloheWAacIzAABz2nZLYnk933.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageFifteen{
+    background-image: url('../img/Wheel-Customization-Elite-Roads.png');
+    transition: 0.4s ease-in-out;
+}
+
+#imageSixteen{
+    background-image: url('../img/0_kLtaafuDTjHP8qbl_.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageSeventeen{
+    background-image: url('../img/2017-08-29-eenews-jh-mercedes.jpg');
+    transition: 0.4s ease-in-out;
+}
+
+#imageEighteen{
+    background-image: url('../img/images.jpg');
+    transition: 0.4s ease-in-out;    
+}
+
+#imageOne:hover, #imageTwo:hover, #imageThree:hover, #imageFour:hover, #imageFive:hover, #imageSix:hover,
+#imageSeven:hover, #imageEight:hover, #imageNine:hover, #imageTen:hover, #imageEleven:hover, #imageTwelve:hover,
+#imageThirteen:hover, #imageFourteen:hover, #imageFifteen:hover, #imageSixteen:hover, #imageSeventeen:hover,
+#imageEighteen:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.linktoanotherpageTwo{
+    height: 100%;
+    background-image: url('../img/22802846_1856038577772123_6922573535449710592_n-1024x576.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.linktoanotherpageone{
+    height: 100%;
+    background-image: url('../img/driftcar7.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.linktoanotherpage{
+    height: 100%;
+    background-image: url('../img/widebody.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.linkinginside{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.linkinginside:hover{
+    cursor: pointer
+}
+
+.racetitle{
+    font-weight: bold;
+    color: #fff;
+}
+
+.widthingg{
+    margin: 0px 0px 0px 20px;
+}

@@ -1,0 +1,522 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* navbar */
+.extrapaddingtop{
+    background-color: rgba(159, 21, 21, 0.5);
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+.navbar{
+    font-family: 'Lobster', cursive;
+}
+
+.fulidpic{
+    height: 50px;
+    width: 50px;
+}
+
+.topbarnav{
+    color: #fff !important;
+    transition: 0.5s ease-in-out
+}
+
+.topbarnav:hover{
+    cursor: pointer;
+    color: #dd4b39 !important;
+}
+
+.orderacablink{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.orderacablink:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+#login{
+    background-color: #8D1B3D;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+#login:hover{
+    background-color: transparent;
+    color: #8D1B3D;
+}
+
+#signup{
+    backgrounD: transparent;
+    color: #fff;
+}
+
+#signup:hover, #login:hover{
+    font-weight: bold;
+}
+.topbarnav{
+    color: #fff !important;
+    transition: 0.5s ease-in-out !important
+}
+
+.nav-item{
+    padding: 0px 30px 0px 30px !important;
+}
+
+.topbarnav:hover{
+    cursor: pointer !important;
+    color: #8D1B3D !important;
+  transition: 0.5s ease;
+}
+
+.middlelogo{
+    position: relative;
+    z-index: 10;
+    background-color: #000;
+    padding: 0px 0px 20px 0px;
+    /*
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    */    
+    clip-path: polygon( -25% 0%, /* left top */ 100% 0%, /* right top */ 100% 35%, /* right bottom */ 50% 100% /* left bottom */ );
+}
+/* Bootstrap Carousel */
+.insideheights{
+    height: 100%;
+}
+
+/* Categories Section */
+.categoriessection{
+    padding: 40px 0px 40px 0px;
+    background-color: #f3f3f3;
+}
+.mycolumnclass{
+    padding: 10px;
+}
+
+.categoriesheading{
+    display: inline-block;
+    font-size: 30px;
+}
+
+.categoriesheading:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid yellow;
+    width: 7%;
+    margin-top: 10px;
+}
+
+.rowmargs{
+    padding: 15px 0px 15px 0px;
+}
+
+.backgroundcarimages{
+    border-radius: 5px;
+}
+
+#porscheback{
+    background-image: url('../img/porsche_911_carrera_rsr_porsche_sports_car_139640_3840x2160.jpg');
+}
+
+#gtrback{
+    background-image: url('../img/nissan_gtr_nissan_sportscar_139668_3840x2160.jpg');
+}
+
+#lamboback{
+    background-image: url('../img/car_red_sports_car_142598_3840x2160.jpg');
+}
+
+#porscheback, #gtrback, #lamboback{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.forslightblackback{
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+
+.forslightblackback:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.cartext{
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+}
+
+.cartext:after{
+    margin-right: -25px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.cartext:hover:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid yellow;
+    width: 10%;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+/* Racing Box Area */
+.detailssectionOne{
+    background-color: #f3f3f3;
+    padding: 30px 0px 30px 0px;
+}
+.racingbox{
+    padding: 30px;
+}
+
+.racingbackground{
+    background-image: url('../img/mclaren_570s_mclaren_car_149999_3840x2160.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    box-shadow: 0px 0px 26px 0px rgba(0,0,0,0.4);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.racingtext{
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Category Section */
+.cats{
+    padding: 30px 0px 30px;
+    background-color: #f3f3f3;
+}
+#race{
+    background-image: url('../img/sports_car_drift_race_131217_3840x2160.jpg');
+}
+
+#canyon{
+    background-image: url('../img/car_road_night_149712_3840x2160.jpg');
+}
+
+#customization{
+    background-image:url('../img/bmw_m4_cs_bmw_blue_122497_3840x2160.jpg');
+}
+
+#race, #canyon, #customization{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 150px;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.catbox{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    transition: 0.5s ease-in-out;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.catbox:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.catsheading{
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.catsheading:hover{
+    text-decoration: none;
+}
+
+/* Hypercar Section */
+.hypercarcategories{
+    padding: 40px 0px 40px 0px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(255,183,30,1) 100%);
+}
+
+.mclarenheading{
+    padding: 0px 30px 0px 30px;
+    margin-bottom: 20px;
+}
+
+.hoverover{
+    transition: 0.5s ease-in-out;
+}
+
+.hoverover:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.hidingit{
+    overflow: hidden;
+}
+
+.bottomcentertext{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.supratitle{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 15px 0px 0px 0px;
+}
+
+/* Dummy Text Area */
+.dummytextarea{
+    padding: 20px 0px 40px 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,108,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+.Dummytextmegaheading{
+    color: #55546f;
+}
+
+.formargs{
+    margin: 0px 0px 20px 0px;
+}
+
+.forbeneathline{
+    display: inline-block;
+}
+
+.forbeneathline:after{
+    position: absolute;
+    display: block;
+    content:"";
+    border-bottom: 3px solid goldenrod;
+    width: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.dummytextheading{
+    color: #F44336;
+}
+
+.dummytextpara{
+    color: #fff;
+}
+
+/* Footer Section */
+.footerlistyellow{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.yellowitems{
+    margin: 5px 0px 5px 0px;
+}
+
+.yellowanchors{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.yellowanchors:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: yellow;
+}
+
+/* Footer Social Icons */
+.footerline{
+    margin-bottom: 0;
+    padding: 15px 0px 15px 0px;
+    color: #fff;
+}
+.footersocialicons{
+    padding: 15px 0px 15px 0px;
+    list-style-type: none;
+    float: right;
+}
+
+.sociallisticons{
+    display: inline-block;
+    padding: 5px 10px 5px 10px;
+}
+
+.socialanchortags{
+    color: #fff;
+    text-decoration: none;;
+}
+
+.socialanchortags:hover{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.adminname {
+    color: #fff;
+}
+.footerlistheading {
+    color: #F44336;;
+}
+.aboutparabottom {
+    color: #fff;
+}
+.cabtype {
+    color: #fff;
+}
+.address {
+    color: #fff;
+}
+.aboutustext1:after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid #8d1b3d;
+    width: 10%;
+    margin-top: 5px;
+}
+.aboutustext:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid #ffffff;
+    width: 20%;
+    margin-top: 5px; 
+}
+.cab-text h1:after {
+    position: absolute;
+    display: block;
+    content: "";
+    border-bottom: 2px solid #8d1b3d;
+    width: 10%;
+    margin-top: 5px;
+}
+.cab-text {
+    text-align: center;
+}
+.testimonial-img img {
+    width: 150px;
+    height: 150px;
+    border: 13px solid #ffffff !important;
+    border-radius: 50%!important;
+}
+
+.adminname{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.cabtype{
+    font-weight: 200;
+}
+
+/* Footer Final Social Icons */
+#fb:hover{
+    color: #3b5999;
+}
+#tw:hover{
+    color: #55acee;
+}
+#gp:hover{
+    color: #dd4b39
+}
+#vi:hover{
+    color: #df2029;
+}
+#yt:hover{
+    color: #cd201f;
+}
+
+#pin:hover{
+    color: #bd081c;
+}
+
+
+@media(min-width: 320px){
+    /* Navbar Section */
+    .alternatepic{
+        display: hidden;
+    }
+    .alternatepictwo{
+        display: block;
+    }
+    .navbaritems{
+        padding: 10px 0px 10px 0px;
+    }
+
+    .centeritemssmall{
+        text-align: center;
+    }
+}
+
+@media(min-width: 576px){
+
+}
+
+@media(min-width: 768px){
+
+}
+
+@media(min-width: 992px){
+    /* Navbar Section */
+    .alternatepic{
+        display: block;
+    }
+    .alternatepictwo{
+        display: hidden;
+    }
+    .navbaritems{
+        padding: 0px 20px 0px 20px;
+    }
+
+    .centeritemssmall{
+        padding: 30px;
+    }
+}
+
+@media(min-width: 1200px){
+
+    /* Bootstrap Carousel */
+    .boostrapcoursel{
+        height: 100vh;
+    }
+}

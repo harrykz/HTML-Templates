@@ -1,0 +1,163 @@
+html, body{
+    overflow-x: hidden;
+}
+/* Service Tag HEADING */
+.servicetag{
+    padding: 90px 0px 20px 0px;
+    background-color: rgba(159, 21, 21, 0.5);;
+}
+
+.servicess{
+    color: #000;
+}
+
+/* Service Cards */
+.marginsforrows{
+    margin: 20px 0px 10px 0px;
+}
+.servicecards{
+    padding: 30px 0px 30px 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,25,108,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+#collapseExample1, #collapseExample2, #collapseExample3, #collapseExample4,
+#collapseExample5, #collapseExample6, #collapseExample7, #collapseExample8{
+    margin-top: 15px;
+}
+
+.carsimgs{
+    width: 100%;
+    height: 200px;
+}
+
+.card{
+    border: 0px !important;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-title, .card-text{
+    color: #fff;
+}
+
+.card-title{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.card-body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 51%, rgba(15,51,176,1) 97%);
+}
+
+.widthing{
+    width: 100%;
+    font-family: 'Lobster', cursive;
+}
+
+/* Quotes Area */
+.serviceqoutes{
+    padding: 50px 0px 50px 0px;
+    background-color: #f3f3f3;
+}
+
+.qouteheading{
+    font-size: 25px;
+}
+
+.qoutenumbers{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sidemarg:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-right: 1px solid rgba(0,0,0,0.38);
+    right: 5px;
+    height: 100%;
+    top: 0px;
+}
+
+/* Service Centers Area */
+.extentionareas{
+    padding: 50px 0px 50px 0px;
+    background-image: url('../img/mclaren_570s_rear_view_orange_108378_3840x2160.jpg');
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hello{
+    font-size: 30px;
+    padding: 15px 15px 15px 15px;
+    background-color: rgba(255,255,255,0.63);
+    border-radius: 10px;
+}
+
+.hello:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+}
+
+#one:before, #two:before, #three:before, #four:before,
+#five:before, #six:before, #seven:before, #eight:before,
+#nine:before, #ten:before, #eleven:before, #twelve:before{
+    position: absolute;
+    display: block;
+    font-size: 50px;
+    color: #0000004f;
+    top: -15px;
+    left: 14px;
+}
+
+#one:before{
+    content:"01";
+}
+
+#two:before{
+    content:"02";
+}
+
+#three:before{
+    content: "03";
+}
+
+#four:before{
+    content: "04";
+}
+
+#five:before{
+    content: "05";
+}
+
+#six:before{
+    content: "06";
+}
+
+#seven:before{
+    content: "07";
+}
+
+#eight:before{
+    content: "08";
+}
+
+#nine:before{
+    content: "09";
+}
+
+#ten:before{
+    content: "10";
+}
+
+#eleven:before{
+    content: "11";
+}
+
+#twelve:before{
+    content: "12";
+}

@@ -1,0 +1,87 @@
+.formbox{
+    padding: 200px 0px 50px 0px;
+}
+
+.socialtext, .cntctform, .mapheading, .maildelivery{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 40px;
+}
+
+.mapheading{
+    margin: 20px 0px 10px 0px;
+}
+
+.contctdetails{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 25px;
+}
+
+.gapingandsetting{
+    margin: 10px 0px 10px 0px;
+    border: 2px solid #3b3d4b !important;
+}
+
+.forfntawesize{
+    font-size: 40px;
+}
+
+.headofc{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 30px;
+}
+
+.forinsidepadss{
+    padding: 20px 0px 20px 0px;
+}
+
+.foraftersidelines:after{
+    position: absolute;
+    display: block;
+    content: "";
+    border-right: 1px solid gray;
+    height: 60%;
+    right: 0px;
+    top: 30px;
+}
+
+#fbs{
+    color: #3b5999;
+}
+
+#tws{
+    color: #55acee;
+}
+
+#pins{
+    color: #bd081c;
+}
+
+#insts{
+    color: #E1306C;
+}
+
+#whts{
+    color: #4AC959;
+}
+
+#msngrs{
+    color: #0078FF;
+}
+
+#fbs:hover, #tws:hover, #pins:hover, #insts:hover, #whts:hover, #msngrs:hover{
+    cursor: pointer;
+}
+
+
+.backtruck{
+    background-image: url('../img/priority-mail-map-hero.jpg');
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
